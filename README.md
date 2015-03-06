@@ -1,3 +1,10 @@
+# what's different for io.js
+
+`--harmony` option change to start node with `--harmony_arrow_functions` flag.
+
+more about this can be found on [io.js es6](https://iojs.org/en/es6.html)
+
+
 # node-supervisor
 
 A little supervisor script for nodejs. It runs your program, and
@@ -49,7 +56,7 @@ clean up all the inter-module references, and without a whole new
         Start node with --debug-brk flag.
 
       --harmony
-        Start node with --harmony flag.
+        Start node with --harmony_arrow_functions flag.
 
       -n|--no-restart-on error|exit
         Don't automatically restart the supervised program if it ends.
